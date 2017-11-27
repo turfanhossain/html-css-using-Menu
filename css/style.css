@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    font-family:Arial;
+    font-size:14px;
+    line-height:20px;
+    color:#656565
+}
+.main{
+    width:960px;
+    margin:20px auto;
+    display:block;
+    overflow:hidden;
+    background:#fff
+}
+.mainmenu{
+    background:#e5e4e9;
+    overflow:hidden;
+}
+.mainmenu ul{
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.mainmenu ul li{
+    float:left;
+    border-right:1px solid #93a2ff;
+    width:191px
+}
+.mainmenu ul li a{
+    display:block;
+    color:#000;
+    padding:10px 40px;
+    text-decoration:none;
+    text-align:center
+}
+.mainmenu ul li a:hover{
+    background:#a80000;
+}
